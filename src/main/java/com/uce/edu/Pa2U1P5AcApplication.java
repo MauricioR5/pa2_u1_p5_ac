@@ -17,6 +17,7 @@ public class Pa2U1P5AcApplication implements CommandLineRunner
 		// TODO Auto-generated method stub
 		System.out.println("Hola Mundo");
 		System.out.println("Soy Mauricio Cacuango");
+		System.out.println("Primer programa en spring");
 	}
 
 	
