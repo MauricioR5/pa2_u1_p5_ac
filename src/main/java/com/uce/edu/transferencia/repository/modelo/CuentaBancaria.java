@@ -29,6 +29,11 @@ public class CuentaBancaria {
 	public void setSaldo(BigDecimal saldo) {
 		this.saldo = saldo;
 	}
+	@Override
+	public String toString() {
+		return "CuentaBancaria [numero=" + numero + ", cedulaPropietario=" + cedulaPropietario + ", saldo=" + saldo
+				+ "]";
+	}
 	
 	
 }

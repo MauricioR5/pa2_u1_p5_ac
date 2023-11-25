@@ -44,6 +44,11 @@ public class Transferencia {
 	public void setCuentaDestino(CuentaBancaria cuentaDestino) {
 		this.cuentaDestino = cuentaDestino;
 	}
+	@Override
+	public String toString() {
+		return "Transferencia [numero=" + numero + ", fecha=" + fecha + ", monto=" + monto + ", cuentaOrigen="
+				+ cuentaOrigen + ", cuentaDestino=" + cuentaDestino + "]";
+	}
 	
 	 
 	
