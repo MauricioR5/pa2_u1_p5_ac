@@ -15,6 +15,7 @@ public class CuentaBancariaRepositoryImpl implements ICuentaBancariaRepository {
 	public CuentaBancaria seleccionar(String numero) {
 		for(CuentaBancaria cuenta:base) {
 			if(cuenta.getNumero().equals(numero)) {
+				
 				return cuenta;
 		}
 			
@@ -25,6 +26,21 @@ public class CuentaBancariaRepositoryImpl implements ICuentaBancariaRepository {
 		
 			
 		}
+	
+	public CuentaBancaria seleccionarEliminar(String numero) {
+		for(CuentaBancaria cuenta:base) {
+			if(cuenta.getNumero().equals(numero)) {
+				return cuenta;
+		}
+			
+	
+			
+				
+			}return null;
+		
+			
+		}
+	
 
 	@Override
 	public void insertar(CuentaBancaria cuentaBancaria) {
