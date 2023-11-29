@@ -19,7 +19,17 @@ public class Pa2U1P5AcApplication implements CommandLineRunner {
 
 	@Autowired
 	private ITransferenciaService iTransferenciaService;
-
+	
+	/* DI por constructor
+	@Autowired
+	public Pa2U1P5AcApplication(ITransferenciaService iTransferenciaService) {
+		this.iTransferenciaService = iTransferenciaService;
+		
+	}DI por metodo
+	@Autowired
+	public void setiTransferenciaService(ITransferenciaService iTransferenciaService) {
+		this.iTransferenciaService= iTransferenciaService;
+	}*/
 	@Autowired
 	private ICuentaBancariaService iCuentaBancariaService;
 
